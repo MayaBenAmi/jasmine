@@ -49,6 +49,7 @@ a {
     margin: auto;
     z-index: 5;
     margin-top: 10%;
+    display: none;
     font-size: 7vw;
     animation: scaling 1.1s linear infinite alternate;
     -webkit-animation: scaling 1.1s linear infinite alternate;
