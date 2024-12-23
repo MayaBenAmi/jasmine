@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "assistant";
+    src: url(assets/fonts/Assistant-ExtraBold.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "assistant";
+    text-align: center;
+    direction: rtl;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: url("assets/media/pic2.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    overflow:hidden;
+}
+
+#title {
+    color: #F5EFFF;
+    margin: auto;
+    margin-top: 20%;
+    font-size: 13vw;
+}
+

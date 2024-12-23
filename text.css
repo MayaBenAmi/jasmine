@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "assistant";
+    src: url(assets/fonts/Assistant-Bold.otf);
+}
+body {
+    text-align: center;
+    direction: rtl;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #F5EFFF;
+    font-family: "assistant";
+    text-align: center;
+    overflow-x:hidden;
+}
+
+#logo {
+    position: absolute;
+    max-width: 100%;
+    height: 10vh;
+    margin: 0%;
+    top: 2%;
+    left: 2%;
+}
+
+#congrats-text {
+    font-size: 5vw;
+    text-align: start;
+    white-space: break-spaces;
+    width: 90vw;
+    margin: auto;
+    margin-top: 30%;
+    color: #A294F9;
+    /* font-weight: bolder; */
+}
+
+#btn {
+    width: 25vw;
+    font-size: 5vw;
+    border-radius: 2vh;
+    color: #F5EFFF;
+    background-color: #A294F9;
+    padding: 2%;
+    margin: auto;
+    margin-top: -2%;
+    margin-bottom: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

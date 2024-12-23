@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "assistant";
+    src: url(assets/fonts/Assistant-Bold.otf);
+}
+
+body {
+    text-align: center;
+    direction: rtl;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background-color: #F5EFFF;
+    font-family: "assistant";
+    text-align: center;
+    overflow:hidden;
+    animation: background-change 3s;
+    -webkit-animation: background-change 3s;
+}
+#logo {
+    position: absolute;
+    max-width: 100%;
+    height: 10vh;
+    margin: 0%;
+    top: 2%;
+    left: 2%;
+}
+
+#main-title {
+    width: 90%;
+    margin: auto;
+    margin-top: 40%;
+    color: #A294F9;
+    font-weight: 550;
+    overflow: hidden;
+    font-size: 12vw;
+}
+a {
+    text-decoration: none;
+}
+#start-btn {
+    width: 50vw;
+    color: #F5EFFF;
+    background-color: #A294F9;
+    padding: 2%;
+    border-radius: 3vh;
+    margin: auto;
+    z-index: 5;
+    margin-top: 10%;
+    font-size: 7vw;
+    animation: scaling 1.1s linear infinite alternate;
+    -webkit-animation: scaling 1.1s linear infinite alternate;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 8px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+@keyframes scaling {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 1.05;
+    }
+}
+@-webkit-keyframes scaling {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 1.05;
+    }
+}
+
+@-webkit-keyframes background-change {
+    from {
+        background-color: #a2d2ff;
+    }
+    to {
+        background-color: #F5EFFF;
+    }
+}
+
+@keyframes background-change  {
+    from {
+        background-color: #a2d2ff;
+    }
+    to {
+        background-color: #F5EFFF;
+    }
+}
+
+
+
+
+.pic1 {
+    background: url(assets/media/pic1.jpeg);
+}
+.pic2 {
+    background: url(assets/media/pic2.jpeg);
+}
+.pic3 {
+    background: url(assets/media/pic3.jpeg);
+}
+.pic4 {
+    background: url(assets/media/pic4.jpeg);
+}
